@@ -1,8 +1,10 @@
 """Petite API de gestion de tâches (Flask) pour le TP CI/CD."""
 
+import subprocess
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
+subprocess.call("ls", shell=True)   # Bandit va détecter shell=True
 
 # Base de données "en mémoire" pour simplifier le TP
 _tasks = [
