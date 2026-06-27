@@ -1,5 +1,6 @@
 """Petite API de gestion de tâches (Flask) pour le TP CI/CD."""
 
+import os
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
