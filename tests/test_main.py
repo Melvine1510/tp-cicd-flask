@@ -1,5 +1,5 @@
-from flask.testing import FlaskClient
 import pytest
+from flask.testing import FlaskClient
 
 from app.main import app
 
