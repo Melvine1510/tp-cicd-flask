@@ -3,7 +3,7 @@ name: CI
 # Déclencheurs : à chaque push et à chaque Pull Request
 on:
   push:
-    branches: [ "etape-2" ]
+    branches: [ "etape-2", "etape-3"]
   pull_request:
 
 # Permissions minimales par défaut (bonne pratique de sécurité)
